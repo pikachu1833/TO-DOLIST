@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f8fd; /* Light blue background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #355d9e; /* Dark blue header */
+  margin-bottom: 0.5rem;
+  font-size: 2rem; /* Slightly larger font size */
+}
+
+h2 {
+  color: #355d9e; /* Dark blue subheader */
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem; /* Slightly larger font size */
+}
+
+.TodoWrapper {
+  background: #ffffff; /* White wrapper background */
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 10px; /* Slightly rounder edges */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+}
+
+.TodoForm {
+  width: 100%;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 2px solid #355d9e; /* Dark blue border */
+  padding: 0.75rem 1rem; /* Slightly larger padding */
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #355d9e; /* Dark blue text color */
+  border-radius: 5px; /* Slightly rounder edges */
+}
+
+.todo-input::placeholder {
+  color: #7a9bc9; /* Light blue placeholder text color */
+}
+
+.todo-btn {
+  background: #355d9e; /* Dark blue button background */
+  color: #ffffff; /* White button text color */
+  border: none;
+  padding: 0.65rem 1rem; /* Slightly smaller padding */
+  cursor: pointer;
+  border-radius: 5px; /* Slightly rounder edges */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #355d9e; /* Dark blue todo item background */
+  color: #ffffff; /* White text color */
+  padding: 1rem 1.5rem; /* Slightly larger padding */
+  border-radius: 10px; /* Slightly rounder edges */
+  margin-bottom: 1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+}
+
+.fa-trash {
+  margin-left: 1rem; /* Slightly larger margin */
+}
+
+.completed {
+  color: #7a9bc9; /* Light blue completed text color */
+  text-decoration: line-through;
+}
